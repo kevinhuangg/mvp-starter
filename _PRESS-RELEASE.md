@@ -17,28 +17,27 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Nyan Cat Game
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > A fun way for teenagers and young adults to see how long they can put up with nyancat and his magical theme song
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-
+  > The Nyan Cat game plays a video of nyancat flying through the air and plays the theme song in the back. Players accumulate points by staying on the site without closing the browser tab. Form teams with your friends by linking your session. More friends means more points. Highscores are posted on the site so everyone can see just how much fun you had!
 ## Problem ##
-  > Describe the problem your product solves.
+  > Lots o' fun'
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > More nyancats in your life
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > 'Nyancats, nuff said.'
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > 'Just navigate to the webpage and start playing'
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > 'Before this was in my life I was unemployed, overweight, and single. After I started playing the Nyan Cat game, I am still all those things. But, I'm the happiest I've ever been!'
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+> It's sometimes the simple, annoyingly-fun games that end up surprising you.
