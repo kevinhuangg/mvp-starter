@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import VideoBackground from './components/videoBackground';
+import CurrentScore from './components/currentScore';
+import HighScore from './components/highScore.jsx';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -32,7 +35,7 @@ class App extends React.Component {
           <CurrentScore/>
         </div>
         <div className="vplayer">
-          <VideoPlayer/>
+          <VideoBackground/>
         </div>
         <div className="hscore">
           <HighScore/>

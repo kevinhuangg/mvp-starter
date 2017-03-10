@@ -1,5 +1,6 @@
+import React from 'react'
 
-var HighScore = () => {
+var HighScore = () => (
   <div className = "high-score">
     <ol>
       <li>500 minutes</li>
@@ -9,6 +10,7 @@ var HighScore = () => {
       <li>100 minutes</li>
     </ol>
   </div>
-}
+  );
 
-window.HighScore = HighScore
+ export default HighScore;
+
