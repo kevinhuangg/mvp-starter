@@ -26,10 +26,19 @@ class App extends React.Component {
   }
 
   render () {
-    return (<div>
-      <h1>Item List</h1>
-      <List items={this.state.items}/>
-    </div>)
+    return (
+      <div>
+        <div className= 'cscore'>
+          <CurrentScore/>
+        </div>
+        <div className="vplayer">
+          <VideoPlayer/>
+        </div>
+        <div className="hscore">
+          <HighScore/>
+        </div>
+      </div>
+    )
   }
 }
 
