@@ -1,8 +1,8 @@
 import React from 'react';
 
-var CurrentScore = () => (
+var CurrentScore = (props) => (
   <div className = "current-score">
-    <div>Your current score is 0</div>
+    <div>You have nyan'd for {props.seconds/10} seconds</div>
   </div>
 )
 

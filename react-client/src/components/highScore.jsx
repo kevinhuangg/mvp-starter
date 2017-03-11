@@ -1,7 +1,7 @@
 import React from 'react';
 
 var HighScore = () => (
-  <div className = "high-score">
+  <div className = "high-score">Top Scores Today
     <ol>
       <li>500 minutes</li>
       <li>400 minutes</li>
