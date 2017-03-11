@@ -22,15 +22,15 @@ class App extends React.Component {
     
     this.interval = setInterval(this.tick, 100)
 
-    $.ajax({
-      url: '/items', 
+    $.get({
+      url: '/scores', 
       success: (data) => {
         this.setState({
           items: data
         })
       },
       error: (err) => {
-        console.log('err', err);
+        console.log('hi',err);
       }
     });
   }
