@@ -44,41 +44,6 @@ class App extends React.Component {
     var styleTS = {color: 'white', 'textAlign':'center', listStylePosition:'inside',
                    marginTop: 300}
     return (
-      <body>
-  <div class="sparks-combo">
-    <div class="spark"></div>
-    <div class="spark"></div>
-    <div class="spark"></div>
-    <div class="spark"></div>
-  </div>
-
-  <div id="wave-a" class="hot rainbow"></div>
-  <div id="wave-a" class="cold rainbow"></div>
-
-  <div id="wave-b" class="hot rainbow"></div>
-  <div id="wave-b" class="cold rainbow"></div>
-
-  <div id="nyan-cat" class="frame1">
-    <div id="tail"></div>
-
-    <div id="paws"></div>
-
-    <div id="pop-tarts-body">
-      <div id="pop-tarts-body-cream"></div>
-    </div>
-
-    <div id="head">
-      <div id="face"></div>
-    </div>
-  </div>
-<div id="app"></div>
-
-  <audio autoplay="true" loop="true">
-    <source src="../src/nyancat/audio/nyan-cat.ogg" type="audio/ogg" />
-    <source src="../src/nyancat/audio/nyan-cat.mp3" type="audio/mpeg" />
-  </audio>
-
-</body>
       <div>
         <div className= 'cscore' style ={styleCS}>
           <CurrentScore seconds={this.state.timeElapsed}/>
