@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 var HighScore = () => (
   <div className = "high-score">
@@ -12,5 +12,6 @@ var HighScore = () => (
   </div>
   );
 
- export default HighScore;
+export default HighScore;
+
 

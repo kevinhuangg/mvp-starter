@@ -5,5 +5,3 @@ const ListItem = (props) => (
     { props.item.description }
   </div>
 )
-
-export default ListItem;

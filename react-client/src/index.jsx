@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import VideoBackground from './components/videoBackground';
-import CurrentScore from './components/currentScore';
+import VideoBackground from './components/videoBackground.jsx';
+import CurrentScore from './components/currentScore.jsx';
 import HighScore from './components/highScore.jsx';
 
 
@@ -41,7 +41,7 @@ class App extends React.Component {
           <HighScore/>
         </div>
       </div>
-    )
+    );
   }
 }
 
