@@ -1,8 +1,9 @@
 import React from 'react';
 
-var Nyancat = () => {
+var Nyancat = (props) => {
+  console.log(props.clickHandler)
   return (
-    <div>
+    <div onClick={props.clickHandler}>
       <div id="wave-a" className="hot rainbow"></div>
       <div id="wave-a" className="cold rainbow"></div>
       <div id="wave-b" className="hot rainbow"></div>
@@ -23,19 +24,3 @@ var Nyancat = () => {
 
 export default Nyancat
 
-      // <div>
-      //   <div id="wave-a" className="hot rainbow" />
-      //   <div id="wave-a" className="cold rainbow" />
-      //   <div id="wave-b" className="hot rainbow" />
-      //   <div id="wave-b" className="cold rainbow" />
-      //   <div id="nyan-cat" className="frame1">
-      //     <div id="tail" />
-      //     <div id="paws" />
-      //     <div id="pop-tarts-body">
-      //       <div id="pop-tarts-body-cream" />
-      //     </div>
-      //     <div id="head">
-      //       <div id="face" />
-      //     </div>
-      //   </div>
-      // </div>

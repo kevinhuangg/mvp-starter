@@ -2,7 +2,7 @@ import React from 'react';
 import HighScoreEntry from './highScoreEntry.jsx'
 
 var HighScore = (props) => {
-console.log(props.highScore)
+// console.log(props.highScore)
   return (
       <div className = "high-score">Top Scores Today
         <ol>
