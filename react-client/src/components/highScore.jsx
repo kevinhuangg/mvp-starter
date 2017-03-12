@@ -1,16 +1,16 @@
 import React from 'react';
+import HighScoreEntry from './highScoreEntry.jsx'
 
-var HighScore = () => (
-  <div className = "high-score">Top Scores Today
-    <ol>
-      <li>500 minutes</li>
-      <li>400 minutes</li>
-      <li>300 minutes</li>
-      <li>200 minutes</li>
-      <li>100 minutes</li>
-    </ol>
-  </div>
-  );
+var HighScore = (props) => {
+console.log(props.highScore)
+  return (
+      <div className = "high-score">Top Scores Today
+        <ol>
+          {props.highScore.map(entry => <HighScoreEntry points={entry}/> )}
+        </ol>
+      </div>
+     );
+}
 
 export default HighScore;
 

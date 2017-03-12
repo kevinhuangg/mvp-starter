@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
 });
 
 var selectAll = function(callback) {
-  connection.query('SELECT user,score FROM scores ORDER BY score DESC LIMIT 1', function(err, results, fields) {
+  connection.query('SELECT user,score FROM scores ORDER BY score DESC LIMIT 2', function(err, results, fields) {
     if(err) {
       callback(err, null);
     } else {

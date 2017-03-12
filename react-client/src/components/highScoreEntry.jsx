@@ -1,5 +1,11 @@
 import React from 'react';
 
-var highScoreEntry = () => (
-  <div className = 'high-score-entry'>500</div> 
-)
+var HighScoreEntry = (props) => {
+  // var style = {textAlign:'lef'}
+  
+  return (
+    <li className = 'high-score-entry'>{props.points.user} : {props.points.score} seconds</li> 
+  )
+}
+
+export default HighScoreEntry;
