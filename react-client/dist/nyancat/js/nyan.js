@@ -1,5 +1,5 @@
 console.log('Nyan!');
-import $ from 'jquery';
+// import $ from jquery
 
 var NyanCat = function () {
 	return {
@@ -45,13 +45,15 @@ var Sparks = function () {
 };
 
 $(function() {
-	var nyancat = new NyanCat(),
-			sparks = new Sparks();
+var nyancat = new NyanCat(),
+    sparks = new Sparks();
 
-	nyancat.init();
-	sparks.init($('.sparks-combo'));
+nyancat.init();
+sparks.init($('.sparks-combo'));
 
-	var timer = setInterval(function () {
-		nyancat.cycleFrames();
-	}, 70);
+var timer = setInterval(function () {
+  nyancat.cycleFrames();
+}, 70);
 });
+
+

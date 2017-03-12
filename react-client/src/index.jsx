@@ -45,9 +45,9 @@ class App extends React.Component {
   }
 
   render () {
-    var styleCS = {color: 'white', 'textAlign':'center', }
-    var styleTS = {color: 'white', 'textAlign':'center', listStylePosition:'inside',
-                   }
+    var styleCS = {position: 'fixed', top: 10, left: 10, color: 'white', 'textAlign':'center', zIndex: 500}
+    var styleTS = {position: 'fixed', top: 30, left: 10, color: 'white', 'textAlign':'center'
+                  ,listStylePosition:'inside', zIndex:500}
     
     if(this.state.scores) {
       return (
