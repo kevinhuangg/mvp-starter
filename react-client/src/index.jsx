@@ -11,11 +11,11 @@ class App extends React.Component {
     super(props);
     this.state = { 
       scores: null,
-      // timeElapsed: 0,
+      timeElapsed: 0,
       nyanClicked: false
     }
     
-    // this.tick = this.tick.bind(this);
+    this.tick = this.tick.bind(this);
     this.getHighScores();
     this.nyanClick = this.nyanClick.bind(this);
 
@@ -35,19 +35,19 @@ class App extends React.Component {
     });
   }
 
-  // tick() {
-  //   if(!this.state.nyanClicked) {
-  //     this.setState({timeElapsed: this.state.timeElapsed + 1});
-  //   }
-  // }
+  tick() {
+    if(!this.state.nyanClicked) {
+      this.setState({timeElapsed: this.state.timeElapsed + 1});
+    }
+  }
 
-  // componentDidMount() {
-  //   this.interval = setInterval(this.tick, 100)
-  // }
+  componentDidMount() {
+    this.interval = setInterval(this.tick, 100)
+  }
 
-  // componentWillUnmount() {
-  //   clearInterval(this.interval);
-  // }
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
 
   nyanClick() {
     this.setState({nyanClicked: !this.state.nyanClicked })
@@ -62,7 +62,7 @@ class App extends React.Component {
       return (
         <div>
           <div className= 'cscore' style ={styleCS}>
-            <CurrentScore/>
+            <CurrentScore seconds={this.state.timeElapsed}/>
           </div>
           <div className="hscore" style={styleTS}>
             <HighScore highScore={this.state.scores}/>
